@@ -2,11 +2,11 @@
 quit = nil
 while quit != 'y' do
 
-puts "Enter amount for rent:"
-rent = gets.chomp.to_f
-
 puts "Enter total of squars:"
 squares = gets.chomp.to_f
+
+puts "Enter amount for rent:"
+rent = gets.chomp.to_f
 
 puts "Enter hours:"
 hours = gets.chomp.to_f
